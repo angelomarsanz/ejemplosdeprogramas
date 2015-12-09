@@ -1,0 +1,66 @@
+img
+{
+  max-width: 100%;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.oculto {
+	display: none;
+}
+
+.index table {
+  margin-top: 0rem;
+  border: 0;
+}
+
+table {
+  background: #fff;
+  margin-bottom: 1.25rem;
+  border: none;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table thead {
+  background: none;
+}
+
+table tr {
+  border-bottom: 1px solid #ebebec;
+}
+
+table thead tr {
+  border-bottom: 1px solid #1798A5;
+}
+
+table tr th {
+  padding: 0.5625rem 0.625rem;
+  font-size: 0.875rem;
+  color: #1798A5;
+  text-align: left;
+  border-bottom: 2px solid #1798A5;
+}
+
+table tr:nth-of-type(even) {
+  background: none;
+}
+
+.vertical-table th {
+  padding: 0.5625rem 0.625rem;
+  font-size: 0.875rem;
+  color: #1798A5;
+  border: none;
+  text-align: left;
+}
+
+.vertical-table {
+  vertical-align: middle;
+}
+
+.vertical-table td {
+  text-align: right;
+}
